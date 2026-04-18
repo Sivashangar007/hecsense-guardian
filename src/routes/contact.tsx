@@ -87,7 +87,7 @@ function Contact() {
           </div>
 
           <div className="flex gap-3">
-            {[Facebook, Twitter, Linkedin, Github].map((Icon, i) => (
+            {social.map((Icon, i) => (
               <a key={i} href="#" className="flex h-11 w-11 items-center justify-center rounded-full border border-border bg-card hover:bg-primary hover:text-primary-foreground hover:border-primary transition shadow-soft">
                 <Icon className="h-4 w-4" />
               </a>
