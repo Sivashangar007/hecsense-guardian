@@ -49,7 +49,7 @@ function Home() {
   return (
     <>
       {/* HERO */}
-      <section className="relative -mt-[72px] min-h-[92vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[88vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={heroImage}
