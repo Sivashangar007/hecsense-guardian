@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageShell } from "@/components/PageShell";
-import { Mail, MapPin, Send, Facebook, Twitter, Linkedin, Github } from "lucide-react";
+import { Mail, MapPin, Send, Instagram, Youtube, Linkedin as LinkedinIcon, Globe } from "lucide-react";
+const Facebook = Globe; const Twitter = Instagram; const Linkedin = LinkedinIcon; const Github = Youtube;
 import { useState } from "react";
 
 export const Route = createFileRoute("/contact")({
